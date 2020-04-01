@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <h1>_KetikanMalam</h1>
+            </div>
+                <div class="nav-link" id="nav-link">
+                    <i class="fa fa-close" onclick="closeMenu()"></i>
+                    <ul>
+                        <a href=""><li>Halaman</li></a>
+                        <a href=""><li>Pesan Sekarang</li></a>
+                        <a href=""><li>Tentang Kami</li></a>
+                        <a href=""><li>Perlu Bantuan</li></a>
+                    </ul>
+                    <button type="button" class="btn"> Daftar</button>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+     <div class="banner-title">
+        <h1> "JANGAN SAMPAI KETINGGALAN.." <span>
+           <br> BURGER HOT <br> Beli 2 Gratis 1.</span> </h1>
+           
+            <br> <p>"Kurus atau gendut adalah pilihan, 
+            <br> tapi makanan enak adalah kebutuhan"</p>
+        
+        <h1><button type="button" class="btn"> Jelajahi</button> </h1>
+    </div>
+    <div class="vertical-bar">
+        <div class="search-icon">
+            <i class="fa fa-th-list"></i>
+            <i class="fa fa-search"></i>
+        </div>
+        <div class="social-icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-link"></i>
+        </div>
+    </div>
+     <div class="notifications">
+        <div class="contents">
+            <small>Jangan Lupa Like Dan Follow <br>  INSTAGRAM | _KetikanMalam </small>
+            <p><a href="">Follow</a><a href="">Like</a></p>
+            </div>
+            <div class="notification-img"> 
+                <img src="img/background5.jpg" alt="">
+            </div> 
+    </div>
+    </div>
+    <script>
+        var show = document.getElementById("nav-link");
+        function showMenu() {
+            show.style.right="0";
+        }
+        function closeMenu(){
+            show.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
